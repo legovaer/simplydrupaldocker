@@ -1,0 +1,23 @@
+{
+    "name": "legovaer/simplydrupaldocker",
+    "description": "A tool that allows you to quickly deploy a temporary Drupal installation",
+    "type": "project",
+    "require": {
+        "symfony/console": ">=2.7 <3.0",
+        "symfony/yaml": ">=2.7 <3.0",
+        "drupal/console": "*"
+    },
+    "config": {
+	            "bin-dir": "bin"
+		        },
+    "authors": [
+        {
+            "name": "Levi Govaerts",
+            "email": "legovaer@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Legovaer\\DrupalDeploy\\": "src"}
+    }
+}
